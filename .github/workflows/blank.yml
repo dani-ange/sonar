@@ -33,6 +33,7 @@ jobs:
       # Runs a set of commands using the runners shell
   job-2:
     name : job2
+    if: github.event.inputs.run-job-2 == 'true'
     runs-on: ubuntu-latest
     needs: build
     steps:
