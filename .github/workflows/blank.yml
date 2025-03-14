@@ -31,7 +31,7 @@ jobs:
         run: echo Hello, world!
 
       # Runs a set of commands using the runners shell
-  job2:
+  job-2:
     name : job2
     runs-on: ubuntu-latest
     needs: build
